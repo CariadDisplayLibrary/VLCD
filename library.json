@@ -1,0 +1,21 @@
+{
+    "name": "VLCD",
+    "keywords": "display, displaycore, tft, lcd, glcd, oled, graphics",
+    "description": "VirtualLCD Driver for DisplayCore",
+    "homepage": "http://displaycore.org/wiki/index.php?title=VLCD",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/MajenkoLibraries/DisplayCore.git"
+    },
+    "dependencies": [ { "name": "DisplayCore", "version": "1.18.8" } ],
+    "export": {
+        "include": "Drivers/VLCD"
+    },
+    "authors": {
+        "name": "Majenko Technologies", "url": "http://majenko.co.uk"
+    },
+    "version": "1.18.8",
+    "frameworks": "arduino",
+    "platforms": "microchippic32"
+}
