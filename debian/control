@@ -1,0 +1,19 @@
+Source: libdisplaycore-driver-vlcd
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-vlcd
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: VLCD.h
+Description: VirtualLCD Driver for DisplayCore
+ Use UECIDE's VirtualLCD plugin as a display device for DisplayCore
+
+
+
