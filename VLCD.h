@@ -47,10 +47,10 @@ class VLCD : public DisplayCore {
         void setPixel(int x, int y, color_t c);
         void drawLine(int x0, int y0, int x1, int y1, color_t c);
 
-        void setRotation(int r) { }
+        void setRotation(int __attribute__((unused)) r) { }
         void displayOn() { setSize(_width, _height); }
         void displayOff() { }
-        void invertDisplay(boolean b) { }
+        void invertDisplay(boolean __attribute__((unused)) b) { }
 
         void setForeground(color_t c);
         void setBackground(color_t c);
