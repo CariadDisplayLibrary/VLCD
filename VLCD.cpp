@@ -87,7 +87,7 @@ void VLCD::setForeground(color_t c) {
 }
 
 void VLCD::sendData(uint8_t *data) {
-    boolean first = true;
+    bool first = true;
     uint32_t pos = 0;
     for (int y = 0; y < _height; y++) {
         for (int x = 0; x < _width / 8; x++) {
@@ -98,7 +98,7 @@ void VLCD::sendData(uint8_t *data) {
 
 }
 
-void VLCD::sendByte(uint8_t v, boolean startbit) {
+void VLCD::sendByte(uint8_t v, bool startbit) {
     uint8_t b1 = v >> 4;
     uint8_t b2 = v & 0x0F;
 

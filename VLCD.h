@@ -36,7 +36,7 @@
 class VLCD : public DisplayCore {
     private:
         Stream *_ser;
-        void sendByte(uint8_t b, boolean startbit = false);
+        void sendByte(uint8_t b, bool startbit = false);
         void push(uint8_t v);
 
     public:
@@ -50,7 +50,7 @@ class VLCD : public DisplayCore {
         void setRotation(int __attribute__((unused)) r) { }
         void displayOn() { setSize(_width, _height); }
         void displayOff() { }
-        void invertDisplay(boolean __attribute__((unused)) b) { }
+        void invertDisplay(bool __attribute__((unused)) b) { }
 
         void setForeground(color_t c);
         void setBackground(color_t c);
