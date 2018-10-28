@@ -10,6 +10,7 @@ Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
+XBSC-Subsubgroup: Virtual
 Depends: libdisplaycore-core
 Provides: VLCD.h
 Description: VirtualLCD
