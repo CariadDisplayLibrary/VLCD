@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: VLCD.h
-Description: VirtualLCD Driver for DisplayCore
+Description: VirtualLCD
  Use UECIDE's VirtualLCD plugin as a display device for DisplayCore
 
 
