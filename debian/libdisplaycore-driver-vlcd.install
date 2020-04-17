@@ -1,2 +1,3 @@
-VLCD.cpp libraries/DisplayCore/VLCD
-VLCD.h libraries/DisplayCore/VLCD
+library.json libraries/DisplayCore/VLCD
+library.properties libraries/DisplayCore/VLCD
+src libraries/DisplayCore/VLCD
