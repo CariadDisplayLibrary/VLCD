@@ -31,9 +31,9 @@
 #ifndef _VLCD_H
 #define _VLCD_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
-class VLCD : public DisplayCore {
+class VLCD : public Cariad {
     private:
         Stream *_ser;
         void sendByte(uint8_t b, bool startbit = false);

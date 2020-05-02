@@ -1,20 +1,21 @@
-Source: libdisplaycore-driver-vlcd
+Source: libcariad-driver-vlcd
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-vlcd
+Package: libcariad-driver-vlcd
+Replaces: libdisplaycore-driver-vlcd
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: Virtual
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: VLCD.h
 Description: VirtualLCD
- Use UECIDE's VirtualLCD plugin as a display device for DisplayCore
+ Use UECIDE's VirtualLCD plugin as a display device for Cariad
 
 
 
